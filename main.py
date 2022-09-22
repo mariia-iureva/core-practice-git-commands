@@ -2,7 +2,8 @@ import pytest
 
 
 def always_returns_true():
-    return False
+    print("we are making some issues happen!")
+    return None
 
 
 def test_always_returns_true():
